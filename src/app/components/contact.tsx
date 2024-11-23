@@ -37,12 +37,12 @@ const Contact = () => {
                             EMAIL
                         </h2>
                         <a className="text-blue-700 leading-relaxed">
-                            abidajunaid87@gmail.com
+                            abidanoor980@gmail.com
                         </a>
                         <h2 className="tital-font font-semibold text-black tracking-widest text-xs mt-4">
                             PHONE
                         </h2>
-                        <p className="leading-relaxed">03132644990</p>
+                        <p className="leading-relaxed">03122688990</p>
                         </div>       
                     </div>
                 </div>
