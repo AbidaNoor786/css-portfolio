@@ -1,35 +1,35 @@
-import Link from 'next/link'
-
+import Link from 'next/link';
 import { LuDownload } from 'react-icons/lu';
+
+
+// import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className='bg-gray-700 z-50 sticky top-0'>
-        <header className='text-white body-font'>
-            <div className='container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center'>
-                {/* heading */}
-                <span className='ml-3 text-xl'>My Portfolio</span>
-                {/* links */}
-                <nav className='md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center'>
-                    <Link href={"/"} className='mr-6 hover:text-red-600'>Home</Link>
-                    <Link href={"#about"} className='mr-6 hover:text-red-600'>About</Link>
-                    <Link href={"#skills"} className='mr-6 hover:text-red-600'>Skills</Link>
-                    <Link href={"#projects"} className='mr-6 hover:text-red-600'>Projects</Link>
-                    <Link href={"#Contact"} className='mr-6 hover:text-red-600'>Contact</Link>
-                </nav>
-                {/* button code */}
-                <a href="/Abida CV.pdf">
-                <button className='inline-flex items-center bg-black border-0 py-1 
-                px-focus:outline-none hover:bg-slate-700 rounded text-white mt-4 md:mt-0'>
-                    Download CV 
-                <LuDownload className='text-xl ml-2'/>
-                </button>
-                </a>
-            </div>
+        <div className="navbar">
+            <header className="navbar-header">
+                <div className="navbar-container">
+                    {/* heading */}
+                    <span className="navbar-heading">My Portfolio</span>
+                    {/* links */}
+                    <nav className="navbar-links">
+                        <Link href={"/"} className="navbar-link">Home</Link>
+                        <Link href={"#about"} className="navbar-link">About</Link>
+                        <Link href={"#skills"} className="navbar-link">Skills</Link>
+                        <Link href={"#projects"} className="navbar-link">Projects</Link>
+                        <Link href={"#Contact"} className="navbar-link">Contact</Link>
+                    </nav>
+                    {/* button code */}
+                    <a href="/Abida CV.pdf" className="navbar-download-link">
+                        <button className="navbar-download-button">
+                            Download CV 
+                            <LuDownload className="navbar-icon" />
+                        </button>
+                    </a>
+                </div>
             </header>
-            </div> 
+        </div>
+    );
+};
 
-    )
-}
-
-export default Navbar
+export default Navbar;
