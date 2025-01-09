@@ -31,7 +31,7 @@ const Hero = () => {
                             I am passionate about creating responsive,</p> 
                             
                             <p className="p2">user-friendly apps and currently exploring 
-                            Agentic AI and cloud computing. Let's connect.</p>
+                            Agentic AI and cloud computing. Let&apos;s connect.</p>
                         
                         {/* Button div */}
                         <div className="hero-button-container">
