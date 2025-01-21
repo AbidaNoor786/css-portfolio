@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Typewriter from 'typewriter-effect';
 import Image from "next/image";
 import Link from "next/link";
 
