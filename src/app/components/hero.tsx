@@ -13,15 +13,10 @@ const Hero = () => {
                     {/* Left div section */}
                     <div className="hero-left">
                         <h1 className="hero-title">
-                            I am
+                            I am Web Developer<br/>UI/UX Designer<br/>Full Stack Developer
                             <br className="hero-break" />
-                            <Typewriter
-                                options={{
-                                    strings: ['Web Developer', 'UI/UX Designer', 'Full Stack Developer'],
-                                    autoStart: true,
-                                    loop: true,
-                                }}
-                            />
+                                   
+                    
                         </h1>
                         <div className="hero-divider"></div>
                         <p className="hero-description">
